@@ -3,7 +3,7 @@
 
 > A library that stores books in your browser's Local Storage.
 
-![screenshot](.images/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 ## Built With
 
