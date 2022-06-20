@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+body {
+  font-family: 'Comic Neue', cursive;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.app-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto 1fr auto auto;
+      grid-template-rows: auto auto 1fr auto auto;
+      grid-template-areas: 'top-decoration' 'header' 'main' 'footer' 'bottom-decoration';
+  border: 4px solid black;
+}
+ 
+
+.nav-spaced {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav p {
+  font-size: 24px;
+}
+
+.page {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 5px 20px;
+  border-left: 3px solid black;
+}
+
+.selected {
+  color: #93c400;
+}
+
+#first {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+
+form h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+form label {
+  width: 100%;
+}
+.book-container {
+  border: 4px solid black;
+  width: 90vw;
+}
+
+.book-container :nth-child(odd) {
+  background-color: #00af9d;
+
+  .contact ul {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 10px;
+  }
+  #first {
+    border-left: 3px solid black;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
