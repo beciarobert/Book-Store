@@ -13,7 +13,7 @@
 - JavaScript
 ## Live Demo
 
-[Live Demo]Coming
+[Live Demo] https://beciarobert.github.io/Book-Store/
 
 ## Getting Started
 
